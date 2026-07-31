@@ -1,7 +1,25 @@
 aid: my-china-roots
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/my-china-roots.png
 name: My China Roots
-description: My China Roots is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: My China Roots is a Chinese heritage genealogy platform that helps people of Chinese
+  descent trace their ancestry, find records of their ancestors, connect with long-lost relatives,
+  and organize roots trips to China. The platform offers a searchable database of roughly 200 million
+  ancestors drawn from digitized clan books (zupu), overseas immigration records, tombstones, obituaries,
+  and clan association member lists, alongside family-tree building and a Library Edition for institutions.
+  It was surfaced as a 500 Global portfolio company. This profile was enriched by the API Evangelist
+  pipeline; the company exposes a consumer web application only, with no discoverable public API,
+  developer portal, SDKs, or machine-readable API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/my-china-roots/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Genealogy
+- Ancestry
+- China
+- Heritage
+- Records
+- Family History
+- Search
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,12 @@ maintainers:
 common:
 - type: Website
   url: https://mychinaroots.com
+- type: Blog
+  url: https://wp.mychinaroots.com/
+- type: DomainSecurity
+  url: security/my-china-roots-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
